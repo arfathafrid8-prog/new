@@ -1,0 +1,32 @@
+ .u-section-1 {
+  filter: none;
+  background-image: url("images/mahatma.jpg");
+}
+
+.u-section-1 .u-sheet-1 {
+  min-height: 2008px;
+}
+
+@media (max-width: 1199px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 1656px;
+  }
+}
+
+@media (max-width: 991px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 1268px;
+  }
+}
+
+@media (max-width: 767px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 951px;
+  }
+}
+
+@media (max-width: 575px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 599px;
+  }
+}
